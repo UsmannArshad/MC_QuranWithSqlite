@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/drawable/read_more.xml" value="0.196" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/drawable/returrn.xml" value="0.196" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/drawable/textsms.xml" value="0.196" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/layout/activity_book.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/layout/activity_display_para.xml" value="0.22" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/layout/activity_search_result.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/layout/activity_searching.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/layout/activity_splash.xml" value="0.2790328973444312" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/layout/customizedview.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/layout/header.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/layout/mainbar.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/menu/main_menu.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/qadil/AndroidStudioProjects/QuranAppWithNotificationAndDb/NavigationDrawer/app/src/main/res/drawable/add_comment.xml" value="0.249" />
+        <entry key="..\:/Users/qadil/AndroidStudioProjects/QuranAppWithNotificationAndDb/NavigationDrawer/app/src/main/res/drawable/book.xml" value="0.249" />
+        <entry key="..\:/Users/qadil/AndroidStudioProjects/QuranAppWithNotificationAndDb/NavigationDrawer/app/src/main/res/drawable/chrome_reader.xml" value="0.249" />
+        <entry key="..\:/Users/qadil/AndroidStudioProjects/QuranAppWithNotificationAndDb/NavigationDrawer/app/src/main/res/layout/activity_book.xml" value="0.25" />
+        <entry key="..\:/Users/qadil/AndroidStudioProjects/QuranAppWithNotificationAndDb/NavigationDrawer/app/src/main/res/layout/activity_display_para.xml" value="0.18" />
+        <entry key="..\:/Users/qadil/AndroidStudioProjects/QuranAppWithNotificationAndDb/NavigationDrawer/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/qadil/AndroidStudioProjects/QuranAppWithNotificationAndDb/NavigationDrawer/app/src/main/res/layout/activity_search_result.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/qadil/AndroidStudioProjects/QuranAppWithNotificationAndDb/NavigationDrawer/app/src/main/res/layout/activity_searching.xml" value="0.33" />
+        <entry key="..\:/Users/qadil/AndroidStudioProjects/QuranAppWithNotificationAndDb/NavigationDrawer/app/src/main/res/layout/customizedview.xml" value="0.365625" />
+        <entry key="..\:/Users/qadil/AndroidStudioProjects/QuranAppWithNotificationAndDb/NavigationDrawer/app/src/main/res/layout/header.xml" value="0.5" />
+        <entry key="..\:/Users/qadil/AndroidStudioProjects/QuranAppWithNotificationAndDb/NavigationDrawer/app/src/main/res/layout/mainbar.xml" value="0.24322916666666666" />
+        <entry key="..\:/Users/qadil/AndroidStudioProjects/QuranAppWithNotificationAndDb/NavigationDrawer/app/src/main/res/menu/main_menu.xml" value="0.31145833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
