@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/MC_QuranWithSqlite/app/src/main/res/drawable/read_more.xml" value="0.2985" />
         <entry key="..\:/Users/Noob/AndroidStudioProjects/MC_QuranWithSqlite/app/src/main/res/layout/activity_book.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/MC_QuranWithSqlite/app/src/main/res/layout/activity_choose_translation.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Noob/AndroidStudioProjects/MC_QuranWithSqlite/app/src/main/res/layout/activity_display_para.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Noob/AndroidStudioProjects/MC_QuranWithSqlite/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Noob/AndroidStudioProjects/MC_QuranWithSqlite/app/src/main/res/layout/activity_search_result.xml" value="0.36666666666666664" />
@@ -13,6 +15,9 @@
         <entry key="..\:/Users/Noob/AndroidStudioProjects/MC_QuranWithSqlite/app/src/main/res/layout/customizedview.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Noob/AndroidStudioProjects/MC_QuranWithSqlite/app/src/main/res/layout/header.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Noob/AndroidStudioProjects/MC_QuranWithSqlite/app/src/main/res/layout/mainbar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/MC_QuranWithSqlite/app/src/main/res/menu/main_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/MC_QuranWithSqlite/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2985" />
+        <entry key="..\:/Users/Noob/AndroidStudioProjects/MC_QuranWithSqlite/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2985" />
         <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/drawable/read_more.xml" value="0.196" />
         <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/drawable/returrn.xml" value="0.196" />
         <entry key="..\:/Users/Noob/AndroidStudioProjects/QuranAppDbWithNotificationDrawer/app/src/main/res/drawable/textsms.xml" value="0.196" />

@@ -31,7 +31,7 @@ ListView lv;
                 Results=db.SearchByRukuNo(Input);
                 break;
             case "BySurahNo":
-                Results=db.getSurah(Integer.parseInt(Input));
+                Results=db.getSurah(Integer.parseInt(Input),4,6);
                 break;
         }
 

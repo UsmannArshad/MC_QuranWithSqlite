@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/redbg"
     tools:context=".Searching">
 
     <TextView
@@ -13,6 +14,7 @@
         android:layout_marginTop="28dp"
         android:gravity="center"
         android:text="Search with a keword or Sentence:"
+        android:textColor="#FDFCFC"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,6 +31,8 @@
         android:ems="10"
         android:hint="Enter Keyword"
         android:inputType="textPersonName"
+        android:textColor="#FBFAFA"
+        android:textColorHint="#FDFCFC"
         android:textIsSelectable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,6 +63,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logoremoved" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

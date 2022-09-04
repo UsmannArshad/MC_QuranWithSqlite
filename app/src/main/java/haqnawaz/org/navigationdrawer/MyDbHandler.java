@@ -139,7 +139,7 @@ class DbHelper extends SQLiteOpenHelper {
 
 
     //get surah name
-    public ArrayList<String> getAllSurah() {
+    public ArrayList<String> getAllSurahArabic() {
         SQLiteDatabase db=this.getReadableDatabase();
         String select_query="SELECT * FROM "+ " tsurah" ;
         //cursor maybe acts as cursor to table row at start it is at first row
@@ -150,6 +150,24 @@ class DbHelper extends SQLiteOpenHelper {
                 if(cursor.getString(2)!=null)
                 {
                     surahList.add(cursor.getString(4));
+                }
+
+            } while (cursor.moveToNext());
+        }
+        cursor.close();
+        return surahList;
+    }
+    public ArrayList<String> getAllSurahEnglish() {
+        SQLiteDatabase db=this.getReadableDatabase();
+        String select_query="SELECT * FROM "+ " tsurah" ;
+        //cursor maybe acts as cursor to table row at start it is at first row
+        Cursor cursor=db.rawQuery(select_query,null);
+        ArrayList<String> surahList=new ArrayList<>();
+        if(cursor.moveToFirst()){
+            do {
+                if(cursor.getString(2)!=null)
+                {
+                    surahList.add(cursor.getString(2));
                 }
 
             } while (cursor.moveToNext());
@@ -224,7 +242,7 @@ class DbHelper extends SQLiteOpenHelper {
     }
 
 
-    public ArrayList<tayah> getSurah(int id){
+    public ArrayList<tayah> getSurah(int id,int urdutranslatorid,int englishtranslatorid){
 
         ArrayList<tayah> t= new ArrayList<tayah>();
         SQLiteDatabase db=this.getReadableDatabase();
@@ -236,7 +254,7 @@ class DbHelper extends SQLiteOpenHelper {
             do {
                 if(cursor!=null)
                 {
-                    tayah e= new tayah(cursor.getInt(0),cursor.getInt(1),cursor.getString(3),cursor.getString(4),cursor.getString(6),cursor.getInt(10),cursor.getInt(8));
+                    tayah e= new tayah(cursor.getInt(0),cursor.getInt(1),cursor.getString(3),cursor.getString(urdutranslatorid),cursor.getString(englishtranslatorid),cursor.getInt(10),cursor.getInt(8));
                     t.add(e);
 
                 }

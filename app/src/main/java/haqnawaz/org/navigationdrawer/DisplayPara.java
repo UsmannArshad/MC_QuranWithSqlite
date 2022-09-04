@@ -6,9 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.method.ScrollingMovementMethod;
-import android.widget.ListView;
-import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,10 +33,12 @@ public class DisplayPara extends AppCompatActivity {
        lv.setAdapter(cA);*/
         Intent intent=getIntent();
         String EnglishSurahName=(intent.getStringExtra("SurahUrduName"));
+        int englishtranslatorid=Integer.parseInt(intent.getStringExtra("EnglishTranslatorId"));
+        int urdutranslatorid=Integer.parseInt(intent.getStringExtra("UrduTranslatorId"));
         DbHelper db=new DbHelper(this);
         int id=db.getSurahIdBySurahName(EnglishSurahName);
-        ayahList=db.getSurah(id);
-        recyclerView=findViewById(R.id.recycleview);
+        ayahList=db.getSurah(id,urdutranslatorid,englishtranslatorid);
+        recyclerView=findViewById(R.id.recycleview1);
 
         recyclerView.setHasFixedSize(true);
 

@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (menuItem.getItemId())
                 {
                     case R.id.nav_Quran:
-                        Intent intent = new Intent(MainActivity.this, BookActivity.class);
+                        Intent intent = new Intent(MainActivity.this,ChooseTranslation.class);
                         startActivity(intent);
                         break;
 

@@ -12,17 +12,18 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/redbg"
         android:visibility="visible">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/teal_700"
+            android:background="@android:color/holo_red_dark"
             android:foregroundGravity="center"
             android:gravity="center"
             app:buttonGravity="center_vertical"
-            app:title="Navigation Drawer Demo"
+            app:title="AL-QURAN"
             app:titleTextColor="@color/white" />
 
         <ImageView
@@ -30,21 +31,22 @@
             android:layout_width="match_parent"
             android:layout_height="215dp"
             android:layout_marginTop="80dp"
-            app:srcCompat="@drawable/bismilah1" />
+            app:srcCompat="@drawable/bismilah_removed" />
 
         <ImageView
             android:id="@+id/imageView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="314dp"
             android:layout_marginTop="270dp"
-            app:srcCompat="@drawable/newimg" />
+            android:translationY="20dp"
+            app:srcCompat="@drawable/logoremoved" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="650dp"
-            android:background="@color/teal_700"
+            android:background="@android:color/transparent"
             android:gravity="center"
             android:text="And Certainly we have made the Quran easy for rememberance,but Is there anyone who will mind? [54:22]"
             android:textColor="#FAF9F9"

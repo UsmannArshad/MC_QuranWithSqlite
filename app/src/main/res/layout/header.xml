@@ -3,21 +3,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="@color/ic_launcher_background"
+    android:background="#ffffff"
     android:foregroundGravity="center"
     android:orientation="vertical">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="125dp"
+        android:layout_height="150dp"
         android:background="@color/black"
-        android:src="@drawable/quran" />
+        android:scaleType="fitXY"
+        android:src="@drawable/checkimg" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/redbg"
         android:gravity="center"
         android:text="QuranApp"
+        android:textColor="#FBFBFB"
         android:textSize="30sp" />
 
 </LinearLayout>
